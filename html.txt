@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>UI/UX</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Sharp:opsz,wght,FILL,GRAD@48,400,0,0" />
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <div class="container">
+      <aside>
+           
+         <div class="top">
+           <div class="logo">
+                    <img class="img-cics" src="logo/cics.png">
+             <h2><span class="danger">CICSdept.</span> </h2>
+           </div>
+           <div class="close" id="close_btn">
+            <span class="material-symbols-sharp">
+              close
+              </span>
+           </div>
+         </div>
+         <!-- end top -->
+          <div class="sidebar">
+
+            <a href="#">
+              <span class="material-symbols-sharp">grid_view </span>
+              <h3>Dashbord</h3>
+           </a>
+           <a href="#" class="active">
+              <span class="material-symbols-sharp">person_outline </span>
+              <h3>Profile</h3>
+           </a>
+           <a href="#">
+              <span class="material-symbols-sharp">schedule </span>
+              <h3>Time in/out</h3>
+           </a>
+           <a href="#">
+              <span class="material-symbols-sharp">list</span>
+              <h3>Assigned Sections</h3>
+           </a>
+           <a href="#">
+              <span class="material-symbols-sharp">note_alt</span>
+              <h3>Syudents Evaluation</h3>
+           </a>
+           <a href="#">
+              <span class="material-symbols-sharp">edit_calendar</span>
+              <h3>Scheduled Leave</h3>
+           </a>
+           <a href="#">
+              <span class="material-symbols-sharp">lab_profile</span>
+              <h3>Reports</h3>
+           </a>
+           
+           <a href="#">
+              <span class="material-symbols-sharp">logout </span>
+              <h3>logout</h3>
+           </a>
+             
+
+
+          </div>
+
+      </aside>
+      <!-- --------------
+        end asid
+      -------------------- -->
+
+      <!-- --------------
+        start main part
+      --------------- -->
+
+      <main>
+           <h1>Dashbord</h1>
+
+           <div class="date">
+             <input type="date" >
+           </div>
+
+        <div class="insights">
+
+           <!-- start working -->
+            <div class="announcements">
+               <span class="material-symbols-sharp">campaign</span>
+               <div class="middle">
+
+                 <div class="left">
+                   <h3>ANNOUNCEMENTS</h3>
+                   <h1>Please tell your students we will be having a Pizza Party at 12:00 noon, Thank you</h1>
+                 </div>
+                  <div class="progress">
+
+                  </div>
+
+               </div>
+               <small>See you at the ZPPSU Gymnasium</small>
+            </div>
+           <!-- end working -->
+              <!-- start expenses -->
+              <div class="Class Schedule">
+                <span class="material-symbols-sharp">event_note</span>
+                <div class="middle">
+                  <div class="left">
+                    <h3>Class Schedule</h3>
+                    <h1>ITPC 224 | DT-IT 3G | 1:00-5:00p.m</h1>
+                  </div>
+                   <div class="progress">
+                   </div>
+ 
+                </div>
+                <small>Today</small>
+             </div>
+            <!-- end working -->
+               <!-- start working -->
+               <div class="income">
+                <span class="material-symbols-sharp">notifications_active</span>
+                <div class="middle">
+ 
+                  <div class="left">
+                    <h3>Remiders</h3>
+                    <h1>Gasta ya se li</h1>
+                  </div>
+                   <div class="progress">
+                   </div>
+ 
+                </div>
+                <small>Last 24 Hours</small>
+             </div>
+            <!-- end working -->
+
+        </div>
+       <!-- end insights -->
+      
+
+      </main>
+      <!------------------
+         end main
+        ------------------->
+
+      <!----------------
+        start right main 
+      ---------------------->
+    <div class="right">
+
+<div class="top">
+   <button id="menu_bar">
+     <span class="material-symbols-sharp">menu</span>
+   </button>
+
+   <div class="theme-toggler">
+     <span class="material-symbols-sharp active">light_mode</span>
+     <span class="material-symbols-sharp">dark_mode</span>
+   </div>
+    <div class="profile">
+       <div class="info">
+           <p><b>Cabuyao</b></p>
+           <p>Admin</p>
+           <small class="text-muted"></small>
+       </div>
+       <div class="profile-photo">
+         <img class="img-sean" src="logo/sean.jpg">
+       </div>
+    </div>
+</div>
+
+  <div class="recent_updates">
+     <h2>Recent Update</h2>
+   <div class="updates">
+      <div class="update">
+         <div class="profile-photo">
+            <img class="img-lycaye" src="logo/lycaye.jpg">
+         </div>
+        <div class="message">
+           <p><b>Bartolome</b> Signed the DTR</p>
+        </div>
+      </div>
+      <div class="update">
+        <div class="profile-photo">
+            <img class="img-abby" src="logo/abby.jpg">
+        </div>
+       <div class="message">
+          <p><b>Quirante</b> Received Mrs. Kreppel Documents</p>
+       </div>
+     </div>
+     <div class="update">
+      <div class="profile-photo">
+        <img class="img-millet" src="logo/millet.jpg">
+      </div>
+     <div class="message">
+        <p><b>DeJuan</b> Sent Mrs. Kreppels her documents</p>
+     </div>
+   </div>
+  </div>
+  </div>
+
+
+   <div class="narrative_report">
+     <h2>My Documents</h2>
+
+      <div class="Narrative_Reports">
+        <div class="icon">
+          <span class="material-symbols-sharp">article</span>
+        </div>
+        <div class="right_text">
+          <div class="info">
+            <h3>View Narrative</h3>
+            <small class="text-muted">Last seen 2 Hours ago</small>
+          </div>
+          <h5 class="success">90%</h5>
+          <h3>Approved</h3>
+        </div>
+      </div>
+
+      <div class="scheduled_leave">
+        <div class="icon">
+          <span class="material-symbols-sharp">edit_calendar</span>
+        </div>
+        <div class="right_text">
+          <div class="info">
+            <h3>Scheduled Leave</h3>
+            <small class="text-muted">Last seen 4 Hours ago</small>
+          </div>
+          <h3 class="danger">Not Approved</h3>
+        </div>
+      </div>
+
+      <div class="item onlion">
+        <div class="icon">
+          <span class="material-symbols-sharp">thumbs_up_down</span>
+        </div>
+        <div class="right_text">
+          <div class="rating">
+            <h3>Work Ratingr</h3>
+            <small class="text-muted">Excellent</small>
+          </div>
+          <h5 class="success">95%</h5>
+        </div>
+      </div>
+   
+  
+
+</div>
+
+
+</div>
+
+
+   </div>
+
+
+
+   <script src="script.js"></script>
+</body>
+</html>
